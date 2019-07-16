@@ -1,0 +1,2 @@
+def PatternCount(text,pattern)
+    
