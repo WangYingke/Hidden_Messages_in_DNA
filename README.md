@@ -1,2 +1,2 @@
-# Hidden_Messages_in_DNA
-Python code for bioinformatics
+# Bioinformatics 1 Hidden_Messages_in_DNA
+With Python
