@@ -17,11 +17,11 @@ def PatternCount(text, pattern):
     return count
 
 if __name__ == "__main__":
-   with open("C:/Users/Administrator/Desktop/dataset_2_7.txt","r") as f:
-       data_set = f.readlines()
-       dna_seq = data_set[0].rstrip()
-       #print(dna_seq)
-       pattern = data_set[1].rstrip()
-       print(pattern)
-       count = PatternCount(dna_seq,pattern)
-       print('count =',count)
+    with open("C:/Users/Administrator/Desktop/dataset_2_7.txt","r") as f:
+        data_set = f.readlines()
+        dna_seq = data_set[0].rstrip()
+        #print(dna_seq)
+        pattern = data_set[1].rstrip()
+        print(pattern)
+        count = PatternCount(dna_seq,pattern)
+        print('count =',count)
