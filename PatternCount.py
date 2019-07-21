@@ -7,14 +7,14 @@ __author__ = 'Yingke Wang'
 
 
 def PatternCount(text, pattern):
-     count =0
-     text_len = len(text)
-     pattern_len = len(pattern)
+    count =0
+    text_len = len(text)
+    pattern_len = len(pattern)
      
-     for i in range(0,text_len-pattern_len+1):
-         if text[i:i+pattern_len] == pattern:
-             count = count + 1
-     return count
+    for i in range(0,text_len-pattern_len+1):
+        if text[i:i+pattern_len] == pattern:
+            count = count + 1
+    return count
 
 if __name__ == "__main__":
    with open("C:/Users/Administrator/Desktop/dataset_2_7.txt","r") as f:
