@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-' Frequent Words Module '
+' Pattern Match  Module '
 
 __author__ = 'Yingke Wang'
 
