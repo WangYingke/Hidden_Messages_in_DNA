@@ -3,7 +3,7 @@
 
 import time
 
-' COMPUTE FREQUENCY ARRAY '
+' IMPROVED CLUMP FINDING ALGORITHM '
 
 __author__ = ' WANG YINGKE '
 
